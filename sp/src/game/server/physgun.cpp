@@ -33,7 +33,7 @@ ConVar phys_gunglueradius("phys_gunglueradius", "128");
 static int g_physgunBeam;
 #define PHYSGUN_BEAM_SPRITE		"sprites/physbeam.vmt"
 
-#define MAX_PELLETS	16
+#define MAX_PELLETS	4200
 
 class CWeaponGravityGun;
 
@@ -46,7 +46,7 @@ public:
 	~CGravityPellet();
 	void Precache()
 	{
-		SetModelName(MAKE_STRING("models/weapons/w_grenade.mdl"));
+		SetModelName(MAKE_STRING("models/weapons/glueblob.mdl"));
 		PrecacheModel(STRING(GetModelName()));
 		BaseClass::Precache();
 	}
