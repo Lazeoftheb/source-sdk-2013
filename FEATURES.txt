@@ -5,3 +5,4 @@ This is a list of added features to project iron
 1.Added Physgun functions.
 2.Discord RPC.
 3.Muzzle flash
+4.MMOD Weapons
