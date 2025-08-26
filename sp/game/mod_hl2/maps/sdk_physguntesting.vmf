@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6440"
-	"mapversion" "4"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "4"
+	"mapversion" "7"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -807,34 +807,15 @@ entity
 }
 entity
 {
-	"id" "95"
-	"classname" "point_clientcommand"
-	"targetname" "Clientcommand"
-	"origin" "1694.99 -1968.57 -2007"
+	"id" "123"
+	"classname" "weapon_physgun"
+	"origin" "1792 -2048 -2012.22"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "105"
-	"classname" "logic_auto"
-	"spawnflags" "1"
-	connections
-	{
-		"OnMapSpawn" "Clientcommand,Command,give weapon_physgun,0,-1"
-	}
-	"origin" "1721.21 -1965.4 -2007"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras
